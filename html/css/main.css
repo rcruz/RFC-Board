@@ -5,6 +5,7 @@ body {
     width: 1024px;
     height: 600px;
     background-color: #222222;
+    overflow: hidden;
 }
 
 #topContainer {
@@ -17,9 +18,19 @@ body {
     width: 100%;
 }
 
-#bottomContainer {
-    height: 30px;
-    width: 100%;
+#rightContainer {
+    position: absolute;
+    height: 100%;
+    width: 400px;
+    right: -400px;
+    top: 0;
+    bottom: 0;
+    background-color: #121212;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transform: translateZ(0);
 }
 
 #board {
