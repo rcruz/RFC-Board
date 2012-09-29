@@ -2,6 +2,7 @@
 node_modules/
 build/.idea/*
 solution/.idea/*
+html/js/*
 .project
 .settings
 *.DS_Store
