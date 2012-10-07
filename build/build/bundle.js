@@ -7,7 +7,8 @@ module.exports = {
             crypto = require('crypto'),
             shasum = crypto.createHash('md5'),
             files = [
-                "lib/js/cards.js"
+                "lib/js/cards.js",
+                "lib/js/cardSelector.js"
             ],
             include = function (files, transform) {
                 files = files.map ? files : [files];
